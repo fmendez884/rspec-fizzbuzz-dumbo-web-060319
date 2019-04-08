@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(n)
-  if n / 3 == 1 
+  if n % 3 == 0
     return "Fizz"
   elsif n / 5 == 1 
     return "Buzz"
