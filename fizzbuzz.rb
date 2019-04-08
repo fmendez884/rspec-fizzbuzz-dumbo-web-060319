@@ -6,4 +6,5 @@ def fizzbuzz(n)
     return "Fizz"
   elsif n / 5 == 1 
     return "Buzz"
+  
 end
